@@ -17,3 +17,5 @@ app.listen(3000, () => {
 client.on('ready', () => {
 	client.user.setActivity(`Eso`, {type: "WATCHING"})
 });
+
+client.login(mySecret)
